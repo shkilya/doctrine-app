@@ -1,0 +1,18 @@
+{
+    "name": "shkilniuky/doctrine-app",
+    "authors": [
+        {
+            "name": "shkilniuky",
+            "email": "yevhenii.shkilniuk@btcbit.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "*",
+        "symfony/cache": "^5.3"
+    }
+}
